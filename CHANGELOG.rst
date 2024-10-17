@@ -2,6 +2,9 @@
 Changelog for package tiago_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.6.0 (2024-09-18)
+------------------
+
 4.5.0 (2024-08-29)
 ------------------
 * Use launch file directly from base controller_configuration
