@@ -178,7 +178,14 @@
   </xacro:if>
 
   <!-- Torso -->
-  <xacro:tiago_torso name="torso" parent="base_link"/>
+  <xacro:tiago_torso name="torso" parent="base_link">
+    <xacro:if value="${base_type == 'pmb2'}">
+      <origin rpy="0 0 0" xyz="-0.062 0.0 0.193" />
+    </xacro:if>
+    <xacro:if value="${base_type == 'omni_base'}">
+      <origin rpy="0 0 0" xyz="-0.062 0.0 0.215" />
+    </xacro:if>
+  </xacro:tiago_torso>
 
   <!-- Arm, FT, EE -->
   <xacro:if value="${has_arm}">

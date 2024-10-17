@@ -2,6 +2,11 @@
 Changelog for package tiago_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.6.0 (2024-09-18)
+------------------
+* Add slash to node names on parameter files
+* Contributors: Noel Jimenez
+
 4.5.0 (2024-08-29)
 ------------------
 * Use launch file directly from base controller_configuration
