@@ -2,6 +2,12 @@
 Changelog for package tiago_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.6.0 (2024-09-18)
+------------------
+* Fix torso height for the omni_base
+* Add slash to node names on parameter files
+* Contributors: Noel Jimenez, thomas.peyrucain
+
 4.5.0 (2024-08-29)
 ------------------
 * Fix distances for old wrist + change default wrist + typo
