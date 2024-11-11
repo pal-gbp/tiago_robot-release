@@ -2,6 +2,14 @@
 Changelog for package tiago_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.7.1 (2024-11-08)
+------------------
+* Add xacro tests
+* Contributors: Aina
+
+4.7.0 (2024-11-06)
+------------------
+
 4.6.0 (2024-09-18)
 ------------------
 * Fix torso height for the omni_base
