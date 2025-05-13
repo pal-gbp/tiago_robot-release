@@ -2,6 +2,31 @@
 Changelog for package tiago_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.17.1 (2025-05-13)
+-------------------
+
+4.17.0 (2025-04-09)
+-------------------
+* Standarized gravity comp launcher
+* Added command interface param needed for new version of gravity comp
+* Contributors: oscarmartinez
+
+4.16.0 (2025-04-03)
+-------------------
+
+4.15.1 (2025-03-28)
+-------------------
+
+4.15.0 (2025-03-25)
+-------------------
+* Remove imu broadcaster dependency
+* Contributors: Noel Jimenez
+
+4.14.1 (2025-03-18)
+-------------------
+* Remove unused imu broadcaster
+* Contributors: Noel Jimenez
+
 4.14.0 (2025-02-24)
 -------------------
 
