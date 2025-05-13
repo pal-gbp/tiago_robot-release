@@ -2,6 +2,37 @@
 Changelog for package tiago_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.17.1 (2025-05-13)
+-------------------
+
+4.17.0 (2025-04-09)
+-------------------
+
+4.16.0 (2025-04-03)
+-------------------
+
+4.15.1 (2025-03-28)
+-------------------
+* Merge branch 'mvi/update-motions' into 'humble-devel'
+  Adding Head motions for Tiago
+  See merge request robots/tiago_robot!339
+* slow down head_tour
+* update head_tour
+* let the head shake instead of nod
+* Load head motions yaml
+* Implementing head motions
+* migrating head motions to 'tiago_motions_head.yaml'
+* Contributors: matteovillani, thomaspeyrucain
+
+4.15.0 (2025-03-25)
+-------------------
+* removed marker_vel
+* added tab_vel to twist_mux
+* Contributors: andreacapodacqua
+
+4.14.1 (2025-03-18)
+-------------------
+
 4.14.0 (2025-02-24)
 -------------------
 * update topics
