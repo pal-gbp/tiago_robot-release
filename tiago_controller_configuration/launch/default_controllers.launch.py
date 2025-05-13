@@ -79,18 +79,6 @@ def declare_actions(
     )
     launch_description.add_action(joint_state_broadcaster)
 
-    # IMU sensor broadcaster
-    imu_sensor_broadcaster = GroupAction(
-        [
-            generate_load_controller_launch_description(
-                controller_name='imu_sensor_broadcaster',
-                controller_params_file=os.path.join(
-                    pkg_share_folder, 'config', 'imu_sensor_broadcaster.yaml'))
-
-        ],
-    )
-    launch_description.add_action(imu_sensor_broadcaster)
-
     # Torso controller
     torso_controller = GroupAction(
         [
@@ -138,8 +126,7 @@ def declare_actions(
     gravity_compensation_controller = include_scoped_launch_py_description(
         pkg_name="tiago_controller_configuration",
         paths=["launch", "gravity_compensation_controller.launch.py"],
-        launch_arguments={"arm_motor_model": launch_args.arm_motor_model,
-                          "end_effector": launch_args.end_effector},
+        launch_arguments={"arm_motor_model": launch_args.arm_motor_model},
         condition=UnlessCondition(PythonExpression(
                 [
                     "'",
