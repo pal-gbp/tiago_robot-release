@@ -2,6 +2,14 @@
 Changelog for package tiago_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.18.0 (2025-06-18)
+-------------------
+* Adapt to changes in play_motion2
+* Contributors: davidfernandez
+
+4.17.2 (2025-06-05)
+-------------------
+
 4.17.1 (2025-05-13)
 -------------------
 
