@@ -2,6 +2,19 @@
 Changelog for package tiago_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.18.0 (2025-06-18)
+-------------------
+
+4.17.2 (2025-06-05)
+-------------------
+* Change sensors paths according to pal_urdf_utils
+* Remove meshes for sensors
+* Move ros2 ft senso file to global one
+* Change path into a more detailed one
+* Remove sensors from tiago_description
+* Move sensors to pal_urdf_utils package
+* Contributors: Aina
+
 4.17.1 (2025-05-13)
 -------------------
 * Remove usage of sensors.ros2_control.xacro
