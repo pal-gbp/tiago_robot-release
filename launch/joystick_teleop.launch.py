@@ -80,15 +80,32 @@ def declare_actions(
 
     launch_description.add_action(joy_node)
 
+    joystick_analyzer = Node(
+        package='diagnostic_aggregator',
+        executable='add_analyzer',
+        namespace='joystick',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            os.path.join(pkg_dir, 'config', 'joy_teleop', 'joystick_analyzers.yaml')
+        ],
+    )
+    launch_description.add_action(joystick_analyzer)
+
     # starting safe command node for joystick teleop
     safe_command_head = Node(
         package='collision_aware_joint_trajectory_wrapper',
         executable='safe_command_node',
         name='safe_command_node',
+        namespace='head_controller',
         output='screen',
         parameters=[{
             'controller_name': 'head_controller'
-        }]
+        }],
+        remappings=[
+            ('/head_controller/robot_description', '/robot_description'),
+            ('/head_controller/robot_description_semantic', '/robot_description_semantic'),
+        ]
     )
 
     launch_description.add_action(safe_command_head)
@@ -97,10 +114,15 @@ def declare_actions(
         package='collision_aware_joint_trajectory_wrapper',
         executable='safe_command_node',
         name='safe_command_node',
+        namespace='torso_controller',
         output='screen',
         parameters=[{
             'controller_name': 'torso_controller'
-        }]
+        }],
+        remappings=[
+            ('/torso_controller/robot_description', '/robot_description'),
+            ('/torso_controller/robot_description_semantic', '/robot_description_semantic'),
+        ]
     )
 
     launch_description.add_action(safe_command_torso)

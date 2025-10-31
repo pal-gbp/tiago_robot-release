@@ -2,6 +2,45 @@
 Changelog for package tiago_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.22.0 (2025-10-29)
+-------------------
+
+4.21.0 (2025-10-27)
+-------------------
+* Add play_motion2 cli dependency
+* Contributors: Isaac Acevedo
+
+4.20.0 (2025-10-20)
+-------------------
+
+4.19.6 (2025-10-01)
+-------------------
+
+4.19.5 (2025-09-16)
+-------------------
+
+4.19.4 (2025-08-18)
+-------------------
+
+4.19.3 (2025-07-16)
+-------------------
+* Add remappings for removing robot_description namespace
+* Contributors: Noel Jimenez
+
+4.19.2 (2025-07-09)
+-------------------
+* Add namespace to safe_command_node instances
+* Add safe_command to joystick analyzers
+* Contributors: Noel Jimenez
+
+4.19.1 (2025-07-09)
+-------------------
+
+4.19.0 (2025-07-08)
+-------------------
+* Add diagnostic analyzers
+* Contributors: Noel Jimenez
+
 4.18.0 (2025-06-18)
 -------------------
 * Adapt to changes in play_motion2
