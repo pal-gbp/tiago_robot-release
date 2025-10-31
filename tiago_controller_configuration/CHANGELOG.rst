@@ -2,6 +2,47 @@
 Changelog for package tiago_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.22.0 (2025-10-29)
+-------------------
+* Merge branch 'tpe/add_open_loop' into 'humble-devel'
+  Add openloop to controllers
+  See merge request robots/tiago_robot!361
+* Add openloop to controllers + remove impedance controller
+* Contributors: thomas.peyrucain, thomaspeyrucain
+
+4.21.0 (2025-10-27)
+-------------------
+
+4.20.0 (2025-10-20)
+-------------------
+* Force to current conversion is now handled at actuator level
+  Set most motor constants and reducers to 1.0 so the effort to current
+  conversion can be handled at actuator level
+* Contributors: Jordan Palacios
+
+4.19.6 (2025-10-01)
+-------------------
+* Remove joint 5 in the gravity compensation due to motor issue
+* Contributors: thomas.peyrucain
+
+4.19.5 (2025-09-16)
+-------------------
+
+4.19.4 (2025-08-18)
+-------------------
+
+4.19.3 (2025-07-16)
+-------------------
+
+4.19.2 (2025-07-09)
+-------------------
+
+4.19.1 (2025-07-09)
+-------------------
+
+4.19.0 (2025-07-08)
+-------------------
+
 4.18.0 (2025-06-18)
 -------------------
 
