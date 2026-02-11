@@ -2,6 +2,20 @@
 Changelog for package tiago_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.24.1 (2026-01-29)
+-------------------
+
+4.24.0 (2026-01-12)
+-------------------
+
+4.23.1 (2026-01-08)
+-------------------
+* Add "Hardware Components Activity" module dependency
+* Contributors: Noel Jimenez
+
+4.23.0 (2025-12-05)
+-------------------
+
 4.22.0 (2025-10-29)
 -------------------
 * Merge branch 'tpe/add_open_loop' into 'humble-devel'
